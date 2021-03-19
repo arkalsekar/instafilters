@@ -1,4 +1,3 @@
-cmake==3.18.4.post1
 imutils==0.5.3
 numpy==1.18.5
 opencv-python==4.4.0.44
@@ -9,7 +8,6 @@ scapy==2.4.0
 scipy==1.5.3
 spicy==0.16.0
 streamlit==0.68.1
-libgl1-mesa-glx
 
 
 
