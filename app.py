@@ -14,7 +14,7 @@ st.write()
 st.subheader("This App Can Apply Blur, Warm, Cold, Graysclae, Edged filters to your Images.")
 
 # Uploading the File to the Page
-uploadFile = st.file_uploader(label="Upload image", type=['jpg', 'png'])
+uploadFile = st.file_uploader(label="Upload image", type=['jpg', 'jpeg', 'png'])
 
 # Checking the Format of the page
 if uploadFile is not None:
