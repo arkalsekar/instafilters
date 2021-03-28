@@ -54,3 +54,14 @@ def resize(image, left, top, right, bottom):
     ima = image.crop((left, top, right, bottom))
     resized = np.array(ima)
     return resized
+
+# Applying Sketch FIlter To Images
+def divimg(x, y):
+    return cv2.divide(x, 255 - y, scale=256)
+
+def Sketch(image):
+    img_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    img_invert = cv2.bitwise_not(img_gray)
+    img_smoothing = cv2.GaussianBlur(img_invert, (21, 21),sigmaX=0, sigmaY=0)
+    final_img = divimg(img_gray, img_smoothing)
+    return final_img
