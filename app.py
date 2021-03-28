@@ -23,7 +23,7 @@ else:
     st.write("Make sure you image is in JPG/PNG Format.")
 
 # Creating a DropDown to Select the FIlter
-SltFilter = st.selectbox(label="Select the Filter Type", options=['Normal', 'Blur', 'Cold', 'Warm', 'Edge', 'GrayScale', 'Crop'])
+SltFilter = st.selectbox(label="Select the Filter Type", options=['Normal', 'Blur', 'Cold', 'Warm', 'Edge', 'GrayScale', 'Sketch', 'Crop'])
 
 st.markdown('#####')
 
@@ -72,3 +72,8 @@ else:
         Cropping = resize(im, int(le), int(to), int(ri), int(bo))
         # st.write(Cropping)
         st.image(Cropping, caption="Resized Image")
+        
+    elif SltFilter == "Sketch":
+        im = load_image(uploadFile)
+        imag = Sketch(im)
+        st.image(imag, caption="Sketched Image", width=700, height=800)        
