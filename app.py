@@ -4,7 +4,7 @@ import copy
 import imutils
 from PIL import Image
 from scipy.interpolate import UnivariateSpline
-from filters import grayImage, gaussianBlur, warmImage, coldImage, spreadLookupTable, Edge, load_image, resize
+from filters import grayImage, gaussianBlur, warmImage, coldImage, spreadLookupTable, Edge, load_image, resize, Sketch, divimg
 
 # Title Of the Page
 st.title("InstaFilters Using Image Processing ")
