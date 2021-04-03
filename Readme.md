@@ -1,6 +1,6 @@
 # InstaFilters Streamlit App 
 
-This is a Streamlit app that can Apply Filters to your Images using Widely used Computer Vision Libraries Like ``` open-cv```, ``` scipy```, ```numpy  ``` and ``` Pillow ``` Module. You can View the Application Live [Here](https://share.streamlit.io/arkalsekar/instafilters/main/app.py). Also the Application was been featured on streamlit discussion formus at [here](https://discuss.streamlit.io/t/weekly-roundup-custom-theming-march-madness-recap-videos-and-more/11167)
+This is a Streamlit app that can Apply Filters to your Images using Widely used Computer Vision Libraries Like ``` open-cv```, ``` scipy```, ```numpy  ``` and ``` Pillow ``` Module. You can View the Application Live [Here](https://share.streamlit.io/arkalsekar/instafilters/main/app.py). Also the Application was been featured on streamlit discussion forum. You can read about it more [here](https://discuss.streamlit.io/t/weekly-roundup-custom-theming-march-madness-recap-videos-and-more/11167)
 
 ##  Currently the App can Apply 
 * Cold Filter
