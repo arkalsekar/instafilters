@@ -8,6 +8,7 @@ This is a Streamlit app that can Apply Filters to your Images using Widely used 
 * Smooth Filter 
 * Edged Filter 
 * GrayScale Filter 
+* Sketch Filter
 * Crop your Images.
 See the App Live [Here](https://share.streamlit.io/arkalsekar/instafilters/main/app.py)
 
