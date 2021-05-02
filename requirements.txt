@@ -9,8 +9,7 @@ scapy==2.4.0
 scipy==1.5.3
 spicy==0.16.0
 streamlit==0.68.1
-
-
+matplotlib
 
 
 
